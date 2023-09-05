@@ -1,0 +1,14 @@
+{
+    "name": "stationary_chat",
+    "version": "0.0.1",
+    "title": "Stationary Chat",
+    "author": "asher_sky",
+    "contact": "",
+    "homepage": "",
+    "description": "Holds chat in place when you mine",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base >= 1.1.89",
+        "status_bars"
+    ]
+}
