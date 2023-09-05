@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 05SEP2023
+  Changes:
+    - initial release to the mod portal
+  Features:
+    - added startup mod setting to enable/disable console chat movement when the number of displayed status/progress bars changes
