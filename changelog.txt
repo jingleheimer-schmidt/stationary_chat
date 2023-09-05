@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 05SEP2023
+  Changes:
+    - fixed that turning off the startup mod setting would still hold the chat still
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 05SEP2023
   Changes:

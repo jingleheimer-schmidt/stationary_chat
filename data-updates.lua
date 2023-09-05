@@ -7,19 +7,23 @@ modified_basic_healthbar.color = nil
 modified_basic_healthbar.bar = nil
 modified_basic_healthbar.bar_background = nil
 
-data.raw["gui-style"].default["health_progressbar"] = modified_basic_healthbar
-data.raw["gui-style"].default["health_progressbar"].bar = nil
-data.raw["gui-style"].default["health_progressbar"].bar_background = nil
-data.raw["gui-style"].default["health_progressbar"].bar_width = 0
+local enable_mod = settings.startup["stationary_chat"].value
 
-data.raw["gui-style"].default["vehicle_health_progressbar"].bar = nil
-data.raw["gui-style"].default["vehicle_health_progressbar"].bar_background = nil
-data.raw["gui-style"].default["vehicle_health_progressbar"].bar_width = 0
+if enable_mod then
+    data.raw["gui-style"].default["health_progressbar"] = modified_basic_healthbar
+    data.raw["gui-style"].default["health_progressbar"].bar = nil
+    data.raw["gui-style"].default["health_progressbar"].bar_background = nil
+    data.raw["gui-style"].default["health_progressbar"].bar_width = 0
 
-data.raw["gui-style"].default["mining_progressbar"].bar = nil
-data.raw["gui-style"].default["mining_progressbar"].bar_background = nil
-data.raw["gui-style"].default["mining_progressbar"].bar_width = 0
+    data.raw["gui-style"].default["vehicle_health_progressbar"].bar = nil
+    data.raw["gui-style"].default["vehicle_health_progressbar"].bar_background = nil
+    data.raw["gui-style"].default["vehicle_health_progressbar"].bar_width = 0
 
-data.raw["gui-style"].default["shield_progressbar"].bar = nil
-data.raw["gui-style"].default["shield_progressbar"].bar_background = nil
-data.raw["gui-style"].default["shield_progressbar"].bar_width = 0
+    data.raw["gui-style"].default["mining_progressbar"].bar = nil
+    data.raw["gui-style"].default["mining_progressbar"].bar_background = nil
+    data.raw["gui-style"].default["mining_progressbar"].bar_width = 0
+
+    data.raw["gui-style"].default["shield_progressbar"].bar = nil
+    data.raw["gui-style"].default["shield_progressbar"].bar_background = nil
+    data.raw["gui-style"].default["shield_progressbar"].bar_width = 0
+end
