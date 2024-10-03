@@ -7,6 +7,6 @@ local stationary_chat = {
     order = "stationary_chat"
 }
 
-data:extend{
+data:extend {
     stationary_chat
 }
