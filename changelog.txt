@@ -2,6 +2,8 @@
 Version: 0.0.3
   Changes:
     - updated license year
+  Locale:
+    - added Ukrainian (uk) locale from Crowdin
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 05SEP2023
