@@ -3,6 +3,7 @@ Version: 0.0.3
   Changes:
     - updated license year
   Locale:
+    - added locale strings for mod name and description
     - added Ukrainian (uk) locale from Crowdin
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
